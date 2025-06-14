@@ -12,7 +12,6 @@ const Header = () => {
           alt="People enjoying vacation"
           className="w-full h-full object-cover blur-xs"
         />
-        {/* Dark Overlay */}
       </div>
 
       {/* Main Content */}
