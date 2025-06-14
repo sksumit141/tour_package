@@ -1,4 +1,3 @@
-// src/components/LoadingSkeleton.jsx
 export const LoadingSkeleton = ({ count = 3 }) => {
     return (
       <div className="flex flex-wrap justify-center">
