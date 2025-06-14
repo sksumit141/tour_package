@@ -1,7 +1,5 @@
 // server/server.js
-require('dotenv').config();
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const destinationRoutes = require('./routes/destinations');
 const packageRoutes = require('./routes/packages');
@@ -13,14 +11,14 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// Database connection
-mongoose.connect('mongodb+srv://singhksumit2004:XLRI%40581@cluster0.wtzocnh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-  .then(() => console.log('Connected to MongoDB'))
-  .catch(err => console.error('MongoDB connection error:', err));
-
-// Routes
+// API Routes
 app.use('/api/destinations', destinationRoutes);
 app.use('/api/packages', packageRoutes);
+
+// Basic route for testing
+app.get('/', (req, res) => {
+  res.send('Adventure Travel API is running');
+});
 
 // Start server
 app.listen(PORT, () => {
