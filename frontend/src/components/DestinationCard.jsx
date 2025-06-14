@@ -1,4 +1,3 @@
-// client/src/components/DestinationCard.jsx
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 export const DestinationCard = ({ destination }) => {
