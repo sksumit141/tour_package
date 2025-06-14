@@ -1,4 +1,3 @@
-// client/src/components/PackageCard.jsx
 import { FaStar, FaCalendarAlt } from 'react-icons/fa';
 
 export const PackageCard = ({ tourPackage }) => {
