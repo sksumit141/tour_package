@@ -1,4 +1,3 @@
-// server/models/destination.js
 const mongoose = require('mongoose');
 
 const destinationSchema = new mongoose.Schema({
