@@ -1,4 +1,3 @@
-// client/src/components/TestimonialsSection.jsx
 export const TestimonialsSection = () => {
     const testimonials = [
       {
