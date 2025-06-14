@@ -1,4 +1,3 @@
-// client/src/components/AdvantagesSection.jsx
 import { FaMoneyBillWave, FaChartLine, FaSync, FaListUl } from 'react-icons/fa';
 
 export const AdvantagesSection = () => {
