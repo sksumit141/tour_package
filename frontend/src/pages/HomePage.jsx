@@ -1,4 +1,3 @@
-// client/src/pages/HomePage.jsx
 import { useQuery } from '@tanstack/react-query';
 import { fetchDestinations, fetchTopSellingPackages } from '../api/api';
 import { DestinationCard } from '../components/DestinationCard';
